@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".practice_engine_page">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="413dp"
+        android:layout_height="59dp"
+        android:background="#0C67F1"
+        android:fontFamily="@font/alice"
+        android:text="\nPRACTICE ENGINE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="67dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="4dp"
+        android:background="#0C67F1"
+        android:onClick="homePage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="413dp"
+        android:layout_height="59dp"
+        android:background="@color/black"
+        android:fontFamily="@font/alice"
+        android:text="\nCOPYRIGHT @ Raj Raizada"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/scrollView2"-->
+<!--        android:layout_width="391dp"-->
+<!--        android:layout_height="601dp"-->
+<!--        android:layout_marginStart="19dp"-->
+<!--        android:layout_marginTop="64dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:background="#ADDCF1"-->
+<!--        android:padding="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.473"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView4">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ADDCF1"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="20dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button10"-->
+<!--                android:layout_width="260dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:onClick="open_profile"-->
+<!--                android:text="MY PROFILE" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button"-->
+<!--                android:layout_width="230dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginStart="98dp"-->
+<!--                android:layout_marginEnd="99dp"-->
+<!--                android:fontFamily="@font/alice"-->
+<!--                android:onClick="open_learn_concepts"-->
+<!--                android:text="LEARN CONCEPTS" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button3"-->
+<!--                android:layout_width="260dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginStart="98dp"-->
+<!--                android:layout_marginEnd="99dp"-->
+<!--                android:fontFamily="@font/alice"-->
+<!--                android:onClick="open_test"-->
+<!--                android:text="TEST" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button1"-->
+<!--                android:layout_width="230dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginStart="98dp"-->
+<!--                android:layout_marginEnd="99dp"-->
+<!--                android:enabled="false"-->
+<!--                android:fontFamily="@font/alice"-->
+<!--                android:onClick="open_learn_concepts"-->
+<!--                android:text="USER GUIDE" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button4"-->
+<!--                android:layout_width="260dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginStart="98dp"-->
+<!--                android:layout_marginEnd="99dp"-->
+<!--                android:fontFamily="@font/alice"-->
+<!--                android:onClick="open_about_us"-->
+<!--                android:text="ABOUT US" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button2"-->
+<!--                android:layout_width="230dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginStart="98dp"-->
+<!--                android:layout_marginEnd="99dp"-->
+<!--                android:fontFamily="@font/alice"-->
+<!--                android:onClick="open_developers_info"-->
+<!--                android:text="DEVELOPER'S INFO" />-->
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="376dp"
+        android:layout_height="597dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#E9F3F8"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E9F3F8"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/textView9"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:fontFamily="@font/candal"-->
+            <!--                android:gravity="center"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="MATHEMATICAL APTITUDE"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button8"-->
+            <!--                android:layout_width="260dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginStart="98dp"-->
+            <!--                android:layout_marginEnd="99dp"-->
+            <!--                android:enabled="false"-->
+            <!--                android:fontFamily="@font/alice"-->
+            <!--                android:onClick="open_quantitative_average_aptitude"-->
+            <!--                android:text="RATIOS AND PROPORTIONS" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button5"-->
+            <!--                android:layout_width="230dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginStart="98dp"-->
+            <!--                android:layout_marginEnd="99dp"-->
+            <!--                android:enabled="false"-->
+            <!--                android:fontFamily="@font/alice"-->
+            <!--                android:onClick="open_quantitative_average_aptitude"-->
+            <!--                android:text="PROFIT AND LOSS" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button9"-->
+            <!--                android:layout_width="260dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginStart="98dp"-->
+            <!--                android:layout_marginEnd="99dp"-->
+            <!--                android:enabled="false"-->
+            <!--                android:fontFamily="@font/alice"-->
+            <!--                android:onClick="open_quantitative_average_aptitude"-->
+            <!--                android:text="CODING AND DECODING" />-->
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button3"-->
+            <!--                android:layout_width="230dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginStart="98dp"-->
+            <!--                android:layout_marginEnd="99dp"-->
+            <!--                android:fontFamily="@font/alice"-->
+            <!--                android:onClick="open_quantitative_average_aptitude"-->
+            <!--                android:text="AVERAGE" />-->
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button7"-->
+            <!--                android:layout_width="260dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginStart="98dp"-->
+            <!--                android:layout_marginEnd="99dp"-->
+            <!--                android:enabled="false"-->
+            <!--                android:fontFamily="@font/alice"-->
+            <!--                android:onClick="open_quantitative_average_aptitude"-->
+            <!--                android:text="PERCENTAGES" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView8"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:fontFamily="@font/candal"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="BASIC MATHEMATICS"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="99dp"
+                android:fontFamily="@font/alice"
+                android:onClick="openActivity4"
+                android:text="MULTIPLICATION TABLES" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="99dp"
+                android:fontFamily="@font/alice"
+                android:onClick="open_squares_and_cubes_practice_engine"
+                android:text="SQUARES and CUBES" />
+
+            <Button
+                android:id="@+id/butto5"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="99dp"
+                android:fontFamily="@font/alice"
+                android:onClick="open_addition_learn"
+                android:text="ADDITION" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="99dp"
+                android:fontFamily="@font/alice"
+                android:onClick="open_subtraction_pi"
+                android:text="SUBTRACTION" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="99dp"
+                android:fontFamily="@font/alice"
+                android:onClick="open_division_pi"
+                android:text="DIVISION" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

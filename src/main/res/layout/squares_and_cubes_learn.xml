@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".squares_and_cubes_learn">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="413dp"
+        android:layout_height="59dp"
+        android:background="#0C67F1"
+        android:fontFamily="@font/alice"
+        android:text="\nSQUARES and CUBES"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="413dp"
+        android:layout_height="59dp"
+        android:background="@color/black"
+        android:fontFamily="@font/alice"
+        android:text="\nCOPYRIGHT @ Raj Raizada"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="391dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ADDCF1"
+        android:padding="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.994">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="23dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:text="2  ->  4  ->  8\n3  ->  9  ->  27\n4  ->  16  ->  64\n5  ->  25  ->  125
+                \n6  ->  36  ->  216\n7  ->  49  ->  343\n8  ->  64  ->  512\n9  ->  81  ->  729\n10  ->  100  ->  1000
+                \n\n11  ->  121  ->  1331\n12  ->  144  ->  1728\n13  ->  169  ->  2197\n14  ->  196  ->  2744\n15  ->  225  ->  3375
+                \n16  ->  256  ->  4096\n17  ->  289  ->  4913\n18  ->  324  ->  5832\n19  ->  361  ->  6859\n20  ->  400  ->  8000\n"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="67dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="4dp"
+        android:background="#0C67F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="286dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="Number -> Square -> Cube"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="125dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/funny_cat_3d_illustration" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
